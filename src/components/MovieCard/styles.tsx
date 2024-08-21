@@ -20,7 +20,8 @@ export const useStyles = () => {
       paddingHorizontal: wp(2.5),
       paddingBottom: hp(5),
       resizeMode: 'cover',
-      backgroundColor:"black"
+      backgroundColor:"black",
+      borderRadius:hp(4)
     },
     title: {
       fontFamily: 'Poppins-Medium',
