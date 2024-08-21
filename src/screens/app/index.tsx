@@ -1,0 +1,10 @@
+export {default as Dashboard} from './Dashboard-Tab';
+export {default as MediaLib} from './MediaLib-Tab';
+export {default as More} from './More-Tab';
+export {default as Watch} from './Watch-Tab';
+export {default as MovieDetails} from './MovieDetails'
+export {default as SearchMovies} from './SearchMovies'
+export {default as WatchTrailer} from './WatchTailer'
+export {default as SearchResults} from './SearchResults'
+export {default as TicketSelection} from './TicketSelection'
+export {default as TicketBooking} from './TicketBooking'

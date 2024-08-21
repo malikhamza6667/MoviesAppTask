@@ -1,0 +1,24 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+
+  "compilerOptions": {   "allowJs": true,
+  "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@commons":[ "./src/commons/index.tsx"],
+      "@components":["./src/components/index.tsx"],
+      "@configs":["./src/configs/index.tsx"],
+      "@contexts":["./src/contexts/index.tsx"],
+      "@screens":["./src/screens/index.tsx"],
+      "@routes":["./src/routes/index.tsx"],
+      "@utils":["./src/utils/index.tsx"],
+      "@assets":["./src/assets/index.tsx"],
+      "@constants":["./src/constants/index.tsx"],
+      "@layouts":["./src/layouts/index.tsx"],
+      "@hooks":["./src/hooks/index.tsx"],
+      "@services":["./src/services/index.tsx"]
+    }
+ 
+
+  }
+}
